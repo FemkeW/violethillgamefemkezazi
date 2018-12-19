@@ -15,6 +15,7 @@ function setup() {
   candy5 = new candy(1880, 370, 4, 2.5, 187, 79, 209, 220, 162, 232); //Paars
   angel = new protagonistDead(200, 320, 8)
   gameOver = false;
+  frameRate(60);
 }
 
 function resetGame() {
