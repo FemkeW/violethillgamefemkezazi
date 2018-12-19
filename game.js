@@ -3,6 +3,7 @@ var score = 0;
 var highScore = 0;
 
 function setup() {
+  p5.disableFriendlyErrors = true
   createCanvas(900, 500);
   cloud = new Cloud1(100, 50, 450, 50, 400, 150, 300, 50);
   cloud2 = new Cloud1(676, 50, 1026, 50, 976, 150, 876, 50)
